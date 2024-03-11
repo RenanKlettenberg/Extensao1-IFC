@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.areaBtn{
+    width: 10%;
+    height: 500px;
+    z-index: 5;
+    float: left;
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+
+.slider{
+    display: none;
+    float: left;
+    height: 500px;
+    width: 880px;
+    background-color:beige;
+    border: 1px solid black;
+    transition: transform 0.5s;
+}
+
+#caixaSlider{
+    padding: 100px 0;
+}
+
+.areaBtn button{
+    font-size: 80px;
+    background-color: white;
+    border: none;
+    margin-top: 160px;
+    cursor: pointer;
+}
