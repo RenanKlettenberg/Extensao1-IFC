@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Slider</title>
     <link rel="stylesheet" href="slider.css">
 </head>
+
 <body>
-    <div class="container" id="caixaSlider">
-        <div class="areaBtn">
-            <button class="btnSlide" style="float: right"><</button>
+    <div id="tudo">
+        <button class="btn"><</button>
+        <div id="slider">
+            <div id="slides">
+                <div id="slide1" class="slide" style="background-color: green;">
+                    <h1>Slide 1</h1>
+                </div>
+                <div id="slide2" class="slide" style="background-color: rgb(23, 106, 179);">
+                    <h1>Slide 2</h1>
+                </div>
+                <div id="slide3" class="slide" style="background-color: brown;">
+                    <h1>Slide 3</h1>
+                </div>
+            </div>
         </div>
-        <div class="slider">
-            <h1>Slide 1</h1>
-        </div>
-        <div class="slider">
-            <h1>Slide 2</h1>
-        </div>
-        <div class="slider">
-            <h1>Slide 3</h1>
-        </div>
-        <div class="areaBtn">
-            <button class="btnSlide">></button>
-        </div>
+        <button class="btn">></button>
     </div>
+
     <script src="slider.js"></script>
 </body>
+
 </html>

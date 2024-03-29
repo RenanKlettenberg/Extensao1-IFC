@@ -20,7 +20,6 @@ function verificarLista() {
     } else {
         pesquisa.style.display = "block";
     }
-
 }
 
 function addItem(item) {

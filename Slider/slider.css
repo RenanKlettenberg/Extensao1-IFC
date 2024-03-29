@@ -4,43 +4,40 @@
     padding: 0;
 }
 
-.container{
-    width: 100vw;
-    margin: 0 auto;
-}
-
 .clear{
     clear: both;
 }
 
-.areaBtn{
-    width: 10%;
+.slide{
     height: 500px;
-    z-index: 5;
-    float: left;
-    position: relative;
-    background-color: white;
-    padding: 40px;
+    width: 800px;
+    position:relative;
+    transition: margin-left 0.5s;
 }
 
-.slider{
-    display: none;
-    float: left;
+#slider{
     height: 500px;
-    width: 880px;
-    background-color:beige;
-    border: 1px solid black;
-    transition: transform 0.5s;
+    width: 800px;
+    overflow: hidden;
 }
 
-#caixaSlider{
-    padding: 100px 0;
+#slides{
+    width: 400%;
+    height: 500px;
+    display: flex;
 }
 
-.areaBtn button{
-    font-size: 80px;
+#tudo{
+    margin: 50px auto;
+    width: 800px;
+    display: flex;
+}
+
+.btn{
     background-color: white;
-    border: none;
-    margin-top: 160px;
+    height: fit-content;
+    font-size: 70px;
+    margin-top: 200px;
     cursor: pointer;
+    border: none;
 }
